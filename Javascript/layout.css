@@ -1,0 +1,17 @@
+.index{
+	background-image: url(1.jpg);
+	background-size: cover;
+}
+.container{
+	background-color: #CDC9A5;
+	border: 1px solid black;
+	width: 800px;
+	margin:0 auto;
+	margin:10px auto;
+	margin:10px auto 5px;
+}
+.f{
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
