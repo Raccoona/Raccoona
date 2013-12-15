@@ -1,0 +1,32 @@
+﻿<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Домашняя работа</title>
+		<script src="homework.js"></script>
+		<link rel="stylesheet" href="layout.css">
+	</head>
+	<body class="index">
+		<div class="container">
+			<form name="fibonachi" class="f">
+				<p><strong>Числа Фибоначчи</strong></p>
+				<input type='text' name='num'>
+				<input type='button' value='Вывести' onclick='fib(fibonachi.num.value);' />
+				<input type='text' name='out' size=100 />
+			</form>
+			<form name="factorial" class="f">
+				<p><strong>Факториал числа</strong></p>
+				<input type='text' name='num'>
+				<input type='button' value='Считать' onclick='fac(factorial.num.value);' />
+				<input type='text' name='out' size=100 />
+			</form>
+			<form name="sorting" class="f">
+				<p><strong>Сортировка массива</strong></p>
+				<p>Случайный массив</p>
+				<input type='text' name='out1' size=100 />
+				<p><input type='button' value='Сортировать' onclick='sort();' /></p>
+				<input type='text' name='out2' size=100 />
+			</form>
+		</div>
+	</body>
+</html>

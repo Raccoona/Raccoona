@@ -1,0 +1,49 @@
+h2 {
+    font-size: 2.0em;
+    background-color: #CDC9A5;
+    margin-right: 30px;
+    padding: 20px;
+}
+.photo {
+	float:left;
+	margin-right:20px;
+	margin-top: 25px;
+	border:1px solid black;
+	width:244px;
+	height:244px;
+}
+	
+.photo2 {
+	float:left;
+	margin-right:20px;
+	margin-top: 25px;
+	border:1px solid black;
+	width:175px;
+	height:270px;
+}
+	
+.logo {
+	float:left;
+	margin-right:20px;
+	margin-top: 1px;
+	border:1px solid black;
+	width:800px;
+	height:200px;
+}
+
+.container {
+	background-color: #EEE8AA;
+	font-family: Calibri;
+	font-size: 15pt;
+	line-height: 1.2;
+	padding: 25px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	vertical-align: baseline;
+}
+a:hover{
+    font-style: bold;
+    color: Black; 
+}
