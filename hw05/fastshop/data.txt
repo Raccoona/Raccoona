@@ -1,0 +1,63 @@
+<li>
+						<div class="item">
+							<img src="src/img/4.jpg">
+							<div class="item-name">ПО Microsoft " Windows 8.1 " Русская версия DVD (ВОХ) [WN7-00937]</div>
+							<div class="item-price">6 090 руб.</div>
+						</div>
+					</li>
+					<li>
+						<div class="item">
+							<img src="src/img/1.jpg">
+							<div class="item-name">15.6" [Home] Ноутбук DNS (0164783) (HD)</div>
+							<div class="item-price">20 490 руб.</div>
+						</div>
+					</li>
+					<li>
+						<div class="item">
+							<img src="src/img/2.jpg">
+							<div class="item-name">17.3" [Gamer] Ноутбук DNS (0801153) (HD+)</div>
+							<div class="item-price">33 990 руб.</div>
+						</div>
+					</li>
+					<li>
+						<div class="item">
+							<img src="src/img/3.jpg" class="hh">
+							<div class="item-name">Компьютер DNS Prestige XL [0800795]</div>
+							<div class="item-price">59 990 руб.</div>
+						</div>
+					</li>
+					<li>
+						<div class="item">
+							<img src="src/img/4.jpg">
+							<div class="item-name">ПО Microsoft " Windows 8.1 " Русская версия DVD (ВОХ) [WN7-00937]</div>
+							<div class="item-price">6 090 руб.</div>
+						</div>
+					</li>
+					<li>
+						<div class="item">
+							<img src="src/img/1.jpg">
+							<div class="item-name">15.6" [Home] Ноутбук DNS (0164783) (HD)</div>
+							<div class="item-price">20 490 руб.</div>
+						</div>
+					</li>
+					<li>
+						<div class="item">
+							<img src="src/img/2.jpg">
+							<div class="item-name">17.3" [Gamer] Ноутбук DNS (0801153) (HD+)</div>
+							<div class="item-price">33 990 руб.</div>
+						</div>
+					</li>
+					<li>
+						<div class="item">
+							<img src="src/img/3.jpg" class="hh">
+							<div class="item-name">Компьютер DNS Prestige XL [0800795]</div>
+							<div class="item-price">59 990 руб.</div>
+						</div>
+					</li>
+					<li>
+						<div class="item">
+							<img src="src/img/4.jpg">
+							<div class="item-name">ПО Microsoft " Windows 8.1 " Русская версия DVD (ВОХ) [WN7-00937]</div>
+							<div class="item-price">6 090 руб.</div>
+						</div>
+					</li>

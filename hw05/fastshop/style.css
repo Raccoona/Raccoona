@@ -1,0 +1,199 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	width: 100%;
+	height: 100%;
+}
+.wrapper {
+	width: 980px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 50px;
+	border-bottom: 1px solid #ccc;
+}
+
+.logo {
+	margin: 30px;
+	font-size: 42px;
+	color: #0088cc;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	width: 100%;
+	padding: 0 0 20px;
+	position: relative;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+.content {
+	padding: 0 270px 0 0;
+}
+
+.items {
+	margin: 15px;
+	padding: 0;
+	position: relative;
+}
+
+.items:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+
+.items li {
+	float: left;
+	margin-top: 15px;
+	margin-right: 10px;
+	margin-bottom: 40px;
+	width: 150px;
+	height: 190px;
+	padding: 5px;
+}
+
+.items li img {
+	width: 120px;
+
+	
+}
+
+.items li img.hh {
+	height: 110px;
+}
+
+.items li .item-name {
+	color: #333;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.items li .item-price {
+	color: #767676;
+	font-size: 18px;
+}
+
+.items li:hover {
+    position: relative;
+    cursor: pointer;
+    z-index: 10;
+    background-color: 200px;
+    -webkit-box-shadow: 0 0 20px 2px rgba(200, 200, 200, 0.9);
+       -moz-box-shadow: 0 0 20px 2px rgba(200, 200, 200, 0.9);
+            box-shadow: 0 0 20px 2px rgba(200, 200, 200, 0.9);
+
+    transition: width .2s ease-in-out,  top .2s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+
+
+
+
+
+/* Right Sidebar
+-----------------------------------------------------------------------------*/
+.right-sidebar {
+	float: left;
+	width: 238px;
+	margin-top: 20px;
+	margin-left: -250px;
+	position: relative;
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+.basket .basket-title {
+	color: #A6122E;
+	font-size: 20px;
+}
+
+.basket li  {
+	margin-top: 10px;
+	border-bottom: 1px solid #ccc;
+	padding: 4px;
+}
+
+.basket li:hover  {
+	background-color: #ececec;
+}
+
+.basket li:last-child  {
+	border-bottom: none;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	width: 980px;
+	margin: -20px auto 0;
+	height: 20px;
+	position: relative;
+}

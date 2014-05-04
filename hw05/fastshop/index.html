@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<title></title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="style.css" rel="stylesheet">
+	<script src="lib/angular/angular.js"></script>
+	<script src="js/controllers.js"></script>
+	<script src="js/scripts.js"></script>
+</head>
+
+<body ng-app="shopcatApp">
+
+<div class="wrapper" ng-controller="shopListCtrl">
+
+	<header class="header">
+		<div class="logo">
+			<span class="first">fast</span><span class="second">Shop</span>
+		</div>
+	</header><!-- .header-->
+
+	<div class="middle">
+
+		<div class="container">
+			<main class="content">
+
+				<ul class="items">
+					<li ng-repeat="shop in shops">
+						<div class="item" ng-dblclick="addToCard(shop)">
+							<img ng-src="{{shop.imgurl}}">
+							<div class="item-name">{{shop.name}}</div>
+							<div class="item-price">{{shop.price}}</div>
+							<!-- <div class="item-in">{{shop.incard}}</div> -->
+						</div>
+					</li>
+				</ul>
+			</main><!-- .content -->
+		</div><!-- .container-->
+
+		<aside class="right-sidebar">
+			<div class="basket">
+				<div class="basket-title">Корзина</div>
+				<ul class="basket-content">
+					<li ng-repeat="shop in shops">
+						<div class="item" ng-if="shop.incard == 1" ng-dblclick="removeFromCard(shop)">
+							<img ng-src="{{shop.imgurl}}">
+							<div class="item-name">{{shop.name}}</div>
+							<div class="item-price">{{shop.price}}</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</aside><!-- .right-sidebar -->
+
+	</div><!-- .middle-->
+
+</div><!-- .wrapper -->
+
+</body>
+</html>
