@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Django default" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="cdf19bd7-7368-43e8-a189-11ff7722cd65">
+    <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+    <jdbc-url>jdbc:sqlite:C:\Users\Lucy\Desktop\bars-lab-master\extjs-django\marvel\db.sqlite3</jdbc-url>
+    <libraries/>
+  </data-source>
+</component>

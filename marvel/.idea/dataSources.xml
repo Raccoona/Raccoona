@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1389648889">
+    <data-source source="LOCAL" name="Django default" uuid="cdf19bd7-7368-43e8-a189-11ff7722cd65">
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\Lucy\Desktop\bars-lab-master\extjs-django\marvel\db.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
